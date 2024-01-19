@@ -15,7 +15,9 @@ namespace Cjsteward_Api.DAL
 
         }
 
-        public DbSet<Bio> Bios { get; set; }
+        public DbSet<AboutMe> AboutMe { get; set; }
+        public DbSet<Company> Company { get; set; }
+        public DbSet<JobDescription> JobDescription { get; set; }
 
         private static IConfigurationRoot _configuration;
 
